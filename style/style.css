@@ -1,9 +1,9 @@
 body {
-    background-image: url("../images/greyfloral.png")
+    background-color: whitesmoke;
 }
 .header {
     overflow: hidden;
-    padding: 25px;
+    padding: 60px;
     background-image: url("../images/IMG_1021.jpg");
     width: 100%;
 }
@@ -18,7 +18,7 @@ body {
 }
 .footer {
     overflow: hidden;
-    background-color: rgb(235, 233, 233);
+    background-color: rgb(240, 191, 199);
     position: sticky;
     position: fixed;
     left: 0;
@@ -29,27 +29,27 @@ body {
 .content {
     background-color: white;
     position:absolute;
-    top: 150px;
+    top: 200px;
     left: 40px;
     display: block;
-    width: 75%;
+    width: 50%;
     margin: auto;
-    border-style: groove;
-    border-width: 10px;
-    border-color: rgb(248, 246, 247);   
+    border-style:
+    border-width: 
+    border-color:    
 }
 .content2 {
-    background-color: rgb(248, 208, 184);
+    background-color: white;
     position:absolute;
-    top: 150px;
-    right: 40px;
+    top: 200px;
+    right: 200px;
     height: 600px;
     display: block;
     width: 15%;
     margin: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(253, 253, 252);  
+    border-style:
+    border-width: 
+    border-color:
 }
 
 .content3 {
