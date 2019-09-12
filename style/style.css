@@ -1,0 +1,369 @@
+body {
+    background-image: url("../images/greyfloral.png")
+}
+.header {
+    overflow: hidden;
+    padding: 25px;
+    background-image: url("../images/IMG_1021.jpg");
+    width: 100%;
+}
+
+.mePicture {
+    width: auto;
+    height: 150px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+.footer {
+    overflow: hidden;
+    background-color: rgb(235, 233, 233);
+    position: sticky;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+.content {
+    background-color: white;
+    position:absolute;
+    top: 150px;
+    left: 40px;
+    display: block;
+    width: 75%;
+    margin: auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(248, 246, 247);   
+}
+.content2 {
+    background-color: rgb(248, 208, 184);
+    position:absolute;
+    top: 150px;
+    right: 40px;
+    height: 600px;
+    display: block;
+    width: 15%;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(253, 253, 252);  
+}
+
+.content3 {
+    background-color: white;
+    position:absolute;
+    top: 570px;
+    left: 40px;
+    display: block;
+    width: 42%;
+    height: 15%;
+    margin: auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(248, 246, 247);   
+}
+
+.content4 {
+    background-color: white;
+    position:absolute;
+    top: 570px;
+    left: 685px;
+    display: block;
+    width: 30%;
+    height: 15%;
+    margin: auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(248, 246, 247);   
+}
+.linkTitle {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.link {
+    font-size: 30px;
+    text-align: center;
+}
+.links {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+}
+.linkImage {
+    width: 30px;
+    height: auto;
+    position:absolute;
+    top: 81px;
+    left: 70px;
+}
+.gitImage {
+    width: 30px;
+    height: auto;
+    position:absolute;
+    top: 81px;
+    left: 160px;
+}
+.content5 {
+    background-color: white;
+    position:absolute;
+    top: 785px;
+    left: 40px;
+    display: block;
+    width: 93%;
+    height: 52%;
+    padding-bottom: 100px;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;   
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(240, 191, 199);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cHeaders {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(92, 89, 89);
+    padding-top: 8px;
+}
+.cInfo {
+    text-indent: 30px;
+}
+.email {
+    font-size: 16px;
+}
+a {
+    color: rgb(32, 109, 197);
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    color: rgb(100, 98, 98);
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.headerName {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 191, 199);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+}
+#resume {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:200px;
+    height: auto;
+    position: absolute;
+    top: 515px;
+    right: 53px;
+}
+  
+#resume:hover {opacity: 0.7;}
+  
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9); 
+}
+  
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+  
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+  
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.row {
+    margin: 8px -16px;
+}
+  
+.row,
+.row > .column {
+    padding: 8px;
+}
+  
+.column {
+    float: left;
+    width: 23.8%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.content55 {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(194, 192, 192);
+    padding: 5px;
+    
+}
+.pics {
+      width:100%;
+      height: auto;
+}
+  
+@media screen and (max-width: 980px) {
+    .column {
+      width: 50%;
+}
+
+/* Media for 768px */
+@media only screen and (max-width: 768px){
+    .modal-content {
+      width: 100%;
+}
+.content {
+    position:absolute;
+    top: 125px;
+    left: 40px;
+    width: 65%;
+    margin: auto;
+}
+.content2 {
+    position:absolute;
+    top: 125px;
+    left: 570px;
+    height: 600px;
+    width: 21%;
+}
+}
+.content3 {
+    position:absolute;
+    top: 770px;
+    left: 40px;
+    width: 83%;
+    height: 12%;
+}
+.content4 {
+    position:absolute;
+    top: 920px;
+    left: 40px;
+    width: 63%;
+    height: 12%;
+}
+.content5 {
+    position:absolute;
+    top: 1090px;
+    left: 40px;
+    width: 83%;
+    height: 172%;
+}
+.cHeaders {
+    font-size: 18px;
+}
+.cInfo {
+    text-indent: 10px;
+    font-size: 16px;
+}
+.email {
+    font-size: 10px;
+}
+#resume {
+    border-radius: 5px;
+    width:150px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 38px;
+}
+
+/* OTHER */
+.content::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+   }
