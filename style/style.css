@@ -60,30 +60,27 @@ body {
     margin: auto;
     border-radius: 5px;
 }
-/* Last project holder, thinking about deleting */
-.links {
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.4;
-}
-.content5 {
+
+/* Project Holder */
+
+.projectHolder {
     background-color: white;
     position:absolute;
-    top: 785px;
+    top: 700px;
     left: 40px;
     display: block;
-    width: 93%;
-    height: 52%;
+    width: 94%;
     padding-bottom: 100px;
     margin: auto;
     border-style: solid;
     border-width: 5px;
-    border-color: white;   
+    border-color: white;
+    border-radius: 5px;
 }
 h2 {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(214, 118, 163);
     color: white;
     text-align: center;
     font-size: 45px;
@@ -91,29 +88,69 @@ h2 {
     width: 100%;
     margin: 0 auto;
 }
-h3 {
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Poppins', sans-serif;
-    background-color:rgb(240, 191, 199);
-    color: white;
+.links {
+    font-size: 20px;
     text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    margin: 0 auto;
+    line-height: 1.4;
 }
-.content55 {
+
+* {
+    box-sizing: border-box;
+  }
+  
+    .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content94 {
     background-color: white;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(194, 192, 192);
-    padding: 5px;
-    
-}
-.pics {
-      width:100%;
-      height: auto;
-}
+    padding: 10px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(236, 181, 208);
+  }
+  
+  .btn.active {
+    background-color: rgb(214, 118, 163);
+     color: white;
+  }
 
  /* email color */
 a {
@@ -141,10 +178,8 @@ p {
     position: absolute;
     top: 455px;
     right: 300px;
-}
-  
-#resume:hover {opacity: 0.7;}
-  
+} 
+#resume:hover {opacity: 0.7;} 
 .modal {
     display: none;
     position: fixed; 
@@ -157,15 +192,13 @@ p {
     overflow: auto; 
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.9); 
-}
-  
+}  
 .modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
-}
-  
+}  
 #caption {
     margin: auto;
     display: block;
@@ -175,25 +208,21 @@ p {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-}
-  
+} 
 .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-}
-  
+}  
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
-}
-  
+} 
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
-}
-  
+} 
 .close {
     position: absolute;
     top: 15px;
@@ -202,8 +231,7 @@ p {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-}
-  
+} 
 .close:hover,
 .close:focus {
     color: #bbb;
@@ -212,30 +240,20 @@ p {
 }
 .row {
     margin: 8px -16px;
-}
-  
+} 
 .row,
 .row > .column {
     padding: 8px;
-}
-  
+} 
 .column {
     float: left;
     width: 23.8%;
-}
-  
+}  
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-/* carousel */
-
-
-
-
-
-/* carousel */
   
 @media screen and (max-width: 980px) {
     .column {
