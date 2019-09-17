@@ -80,7 +80,7 @@ body {
 h2 {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(214, 118, 163);
+    background-color: rgb(230, 171, 84);
     color: white;
     text-align: center;
     font-size: 45px;
@@ -117,13 +117,11 @@ h4 {
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create three equal columns that floats next to each other */
   .column {
     float: left;
     width: 33.33%;
@@ -162,11 +160,11 @@ h4 {
   }
   
   .btn:hover {
-    background-color: rgb(236, 181, 208);
+    background-color: rgb(247, 235, 195);
   }
   
   .btn.active {
-    background-color: rgb(214, 118, 163);
+    background-color: rgb(230, 171, 84);
      color: white;
   }
 
