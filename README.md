@@ -1,3 +1,3 @@
 # portfolioSite
 
-https://zuzethromo.github.io/portfolioSite/
+https://zuzethromo.github.io/portfolioSite/index.html
